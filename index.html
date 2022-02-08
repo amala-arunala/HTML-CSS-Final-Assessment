@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipes Web App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- header section -->
+      <header class="main-header">
+        <h1>Recipes</h1>
+        <nav class="links">
+          <a href="#">Recipes</a>
+          <a href="#">Pricing</a>
+          <a href="#">Testimonials</a>
+        </nav>
+      </header>
+
+      <!-- Recipes section -->
+      <section class="about-recipes">
+        <div class="grid-3-cols">
+          <div class="images">
+            <img src="./images/img3.jpg" alt="" class="first" />
+            <img src="./images/img2.jpg" alt="" class="second" />
+            <img src="./images/img1.jpg" alt="" class="third" />
+          </div>
+          <div class="content">
+            <h2 class="text">
+              A healthy meal delivered to your door, every single day
+            </h2>
+            <p class="description">
+              The smart 365-days-per-year food subscription that will make you
+              eat healthy again. Tailored to your personal tastes and
+              nutritional needs.
+            </p>
+            <button class="btn1">Healthify me</button>
+            <button class="btn2">
+              Learn more
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="down-arrow"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M16 17l-4 4m0 0l-4-4m4 4V3"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pricing section -->
+      <section>
+        <div class="grid-3-cols">
+          <figure class="product">
+            <img src="./images/img4.jpg" alt="" width="150" height="150" />
+            <div class="product-details">
+              <button class="btn3">Vegan</button>
+              <button class="btn4">Paleo</button>
+              <h3>Avocado Salad</h3>
+              <ul class="product-info">
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="product-icon"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"
+                    />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z"
+                    />
+                  </svg>
+                  <strong>400</strong>calories
+                </li>
+                <li>
+                  <ion-icon name="restaurant-outline"></ion-icon>NutriScore
+                  <strong>92</strong>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="product-icon"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"
+                    />
+                  </svg>
+                  <strong>4.8</strong> Rating(441)
+                </li>
+              </ul>
+            </div>
+          </figure>
+
+          <figure class="product">
+            <img src="./images/img5.jpg" alt="" />
+            <div class="product-details">
+              <button class="btn3">Keto</button>
+              <button class="btn4">Paleo</button>
+              <h3>Russian Salad</h3>
+              <ul class="product-info">
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="product-icon"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"
+                    />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z"
+                    />
+                  </svg>
+                  <strong>350</strong>calories
+                </li>
+                <li>
+                  <ion-icon name="restaurant-outline"></ion-icon>NutriScore
+                  <strong>90</strong>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="product-icon"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"
+                    />
+                  </svg>
+                  <strong>4.9</strong> Rating(447)
+                </li>
+              </ul>
+            </div>
+          </figure>
+
+          <figure class="product">
+            <div>
+              <h3>Works with any diet:</h3>
+              <ul class="diet-info">
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="diet-icon"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M5 13l4 4L19 7"
+                    /></svg
+                  >Vegetarian
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="diet-icon"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M5 13l4 4L19 7"
+                    /></svg
+                  >Vegan
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="diet-icon"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M5 13l4 4L19 7"
+                    /></svg
+                  >Pescatarian
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="diet-icon"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M5 13l4 4L19 7"
+                    /></svg
+                  >Gluten-free
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="diet-icon"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M5 13l4 4L19 7"
+                    /></svg
+                  >Lactose-free
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="diet-icon"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M5 13l4 4L19 7"
+                    /></svg
+                  >Keto
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="diet-icon"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M5 13l4 4L19 7"
+                    /></svg
+                  >Paleo
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="diet-icon"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M5 13l4 4L19 7"
+                    /></svg
+                  >Low FODMAP
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="diet-icon"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M5 13l4 4L19 7"
+                    /></svg
+                  >Kid-friendly
+                </li>
+              </ul>
+            </div>
+          </figure>
+        </div>
+      </section>
+
+      <!-- Testimonials section-->
+      <section class="testimonial-section">
+        <h2 class="testimonial-info">Once you try it, you can't go back</h2>
+        <div class="grid-4-cols">
+          <div>
+            <img src="./images/img6.jpg" alt="" class="author" />
+            <blockquote class="testimonial-text">
+              Inexpensive, healthy and great-tasting meals, without even having
+              to order manually! It feels truly magical.
+            </blockquote>
+            <p class="testimonial-author">&mdash; Dave Bryson</p>
+          </div>
+          <div>
+            <img src="./images/img7.jpg" alt="" class="author" />
+            <blockquote class="testimonial-text">
+              The AI algorithm is crazy good, it chooses the right meals for me
+              every time. It's amazing not to worry about food!
+            </blockquote>
+            <p class="testimonial-author">&mdash; Ben Hadley</p>
+          </div>
+          <div>
+            <img src="./images/img6.jpg" alt="" class="author" />
+            <blockquote class="testimonial-text">
+              Inexpensive, healthy and great-tasting meals, without even having
+              to order manually! It feels truly magical.
+            </blockquote>
+            <p class="testimonial-author">&mdash; Dave Bryson</p>
+          </div>
+          <div>
+            <img src="./images/img7.jpg" alt="" class="author" />
+            <blockquote class="testimonial-text">
+              The AI algorithm is crazy good, it chooses the right meals for me
+              every time. It's amazing not to worry about food!
+            </blockquote>
+            <p class="testimonial-author">&mdash; Ben Hadley</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- about recipes -->
+      <section>
+        <div class="grid-4-cols">
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="features-icon"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"
+              />
+            </svg>
+            <p class="features-title"><strong>Never cook again</strong></p>
+            <p class="features-text">
+              Our subscription cover 365 days per year, even including major
+              holidays.
+            </p>
+          </div>
+
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="features-icon"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+              />
+            </svg>
+            <p class="features-title">
+              <strong>Local and organic</strong>
+            </p>
+            <p class="features-text">
+              Our cooks only use local, fresh, and organic products to prepare
+              your meals.
+            </p>
+          </div>
+
+          <div>
+            <ion-icon name="leaf-outline"></ion-icon>
+            <p class="features-title">
+              <strong>No waste</strong>
+            </p>
+            <p class="features-text">
+              All our partners only use reusable containers to package all your
+              meals.
+            </p>
+          </div>
+
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="features-icon"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z"
+              />
+            </svg>
+            <p class="features-title">
+              <strong>Pause anytime</strong>
+            </p>
+            <p class="features-text">
+              Going on vacation? Just pause your subscription, and we refund
+              unused days.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer section -->
+      <footer>
+        <p class="copyright">
+          Copyright &copy; 2021 by <strong>Recipes</strong> , Inc. All rights
+          reserved.
+        </p>
+      </footer>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
